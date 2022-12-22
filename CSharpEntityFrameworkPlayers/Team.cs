@@ -22,5 +22,10 @@ namespace CSharpEntityFrameworkPlayers
 
         //FK Relazione Uno (Entità Team) a Molti (Entità Player)
         public List<Player> Players { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
