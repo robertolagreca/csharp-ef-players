@@ -19,7 +19,7 @@ namespace CSharpEntityFrameworkPlayers
         public string Name { get; set; }
         [Required]
         public string Surname { get; set; }
-        public int score { get; set; }
+        public int Score { get; set; }
         public int MatchesPlayed { get; set; }
         public int MatchesWon { get; set; }
     }
