@@ -22,5 +22,9 @@ namespace CSharpEntityFrameworkPlayers
         public int Score { get; set; }
         public int MatchesPlayed { get; set; }
         public int MatchesWon { get; set; }
+
+        //FK Relazione Molti (Entità Player) a uno (Entità Team)
+        public int TeamId { get; set; }
+        public Team Team { get; set; }
     }
 }
